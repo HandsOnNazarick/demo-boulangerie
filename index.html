@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Pétrin de Servin — Boulangerie artisanale à Servin</title>
+    <meta name="description" content="Boulangerie artisanale à Servin (Fribourg). Levain naturel, pain au levain, viennoiseries et viennoiseries au beurre. Ouvert du mardi au dimanche, 7h à 18h30.">
+    <meta name="theme-color" content="#f5ead8">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Bakery",
+      "name": "Le Pétrin de Servin",
+      "description": "Boulangerie artisanale. Levain naturel, pains au levain et viennoiseries au beurre. Ouvert du mardi au dimanche.",
+      "telephone": "+41261234567",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rue du Bourg 14",
+        "addressLocality": "Servin",
+        "postalCode": "1758",
+        "addressRegion": "Fribourg",
+        "addressCountry": "CH"
+      },
+      "openingHoursSpecification": [
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday"], "opens": "07:00", "closes": "18:30" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "06:30", "closes": "17:00" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "07:00", "closes": "13:00" }
+      ]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="banner">
+    <div class="container banner-inner">
+        <span>🔥 Levain naturel, cuit toutes les heures</span>
+        <a href="#horaires">Voir les horaires</a>
+    </div>
+</header>
+
+<nav class="nav" id="nav">
+    <div class="container nav-inner">
+        <a href="#" class="logo">
+            <span class="logo-mark" aria-hidden="true">🥖</span>
+            <span class="logo-text">Le Pétrin de Servin</span>
+        </a>
+        <div class="nav-links" id="navLinks">
+            <a href="#pains">Nos pains</a>
+            <a href="#viennoiseries">Viennoiseries</a>
+            <a href="#atelier">L'atelier</a>
+            <a href="#horaires">Horaires</a>
+            <a href="#contact" class="nav-cta">Nous trouver</a>
+        </div>
+        <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="navLinks">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</nav>
+
+<header class="hero">
+    <div class="container hero-inner">
+        <div class="hero-text">
+            <p class="hero-kicker">Servin, Fribourg · depuis 2019</p>
+            <h1 class="hero-title">Le pain sort du four<br>à <span class="hl">6 h 30</span></h1>
+            <p class="hero-lead">
+                Une boulangerie de village. Farineاصيلse, levain qui mature toute la nuit,
+                et rien d'autre dans le pétrin que de la farine, de l'eau, du sel et du temps.
+            </p>
+            <div class="hero-actions">
+                <a href="#pains" class="btn btn-primary">Voir nos pains</a>
+                <a href="tel:+41261234567" class="btn btn-secondary">📞 026 123 45 67</a>
+            </div>
+        </div>
+        <div class="hero-card">
+            <p class="card-label">Aujourd'hui au fournil</p>
+            <ul class="today-list">
+                <li><span class="today-name">Pain de campagne</span><span class="today-time">dès 6 h 30</span></li>
+                <li><span class="today-name">Tournette aux noix</span><span class="today-time">dès 7 h 30</span></li>
+                <li><span class="today-name">Croissant au beurre</span><span class="today-time">dès 7 h 30</span></li>
+                <li><span class="today-name">Fougasse</span><span class="today-time">dès 11 h</span></li>
+            </ul>
+            <p class="card-foot">Épuisé quand c'est parti. On ne garde pas.</p>
+        </div>
+    </div>
+</header>
+
+<section class="section" id="pains">
+    <div class="container">
+        <div class="section-head">
+            <span class="tag">Nos pains</span>
+            <h2>Levain naturel, 48 heures</h2>
+            <p>Le levain est nourri chaque matin avec la farine du jour. C'est lent, c'est cher, c'est pour ça que ça a du goût.</p>
+        </div>
+        <div class="cards">
+            <article class="card">
+                <span class="card-emoji" aria-hidden="true">🍞</span>
+                <h3>Pain de campagne</h3>
+                <p>Le classique. 1 kg de farine, 700 g d'eau, 250 g de levain. Croûte épaisse, mie irregular.</p>
+                <p class="price">4.20 <small>CHF / pièce</small></p>
+            </article>
+            <article class="card card-featured">
+                <span class="badge">Le plus vendu</span>
+                <span class="card-emoji" aria-hidden="true">🌾</span>
+                <h3>Tournette aux noix</h3>
+                <p>Levain mûr, noix de pignon torréfiées, tourage à la main. Meilleure vente le week-end.</p>
+                <p class="price">6.50 <small>CHF / pièce</small></p>
+            </article>
+            <article class="card">
+                <span class="card-emoji" aria-hidden="true">🫓</span>
+                <h3>Fougasse</h3>
+                <p>Farine blanche, huile d'olive, fleur de sel. Se mange encore tiède, si vous avez de la force.</p>
+                <p class="price">5.00 <small>CHF / pièce</small></p>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section class="section section-alt" id="viennoiseries">
+    <div class="container">
+        <div class="section-head">
+            <span class="tag">Viennoiseries</span>
+            <h2>Feuilletées au beurre, tous les matins</h2>
+            <p>Le beurre vient d'une ferme à moins de vingt kilomètres. C'est plus cher. C'est tout l'intérêt.</p>
+        </div>
+        <ul class="list">
+            <li class="list-row">
+                <span class="list-name">Croissant au beurre<small>pur beurre AOP, 27 couches</small></span>
+                <span class="list-price">3.20</span>
+            </li>
+            <li class="list-row">
+                <span class="list-name">Pain au chocolat<small>deux barres, pas une bande de chocolat</small></span>
+                <span class="list-price">3.60</span>
+            </li>
+            <li class="list-row">
+                <span class="list-name">Chaussons aux pommes<small>compote maison, pas de conserve</small></span>
+                <span class="list-price">3.80</span>
+            </li>
+            <li class="list-row">
+                <span class="list-name">Brioche tressée<small>au lait entier</small></span>
+                <span class="list-price">4.40</span>
+            </li>
+            <li class="list-row">
+                <span class="list-name">Baguette tradition<small>cuite à la demande</small></span>
+                <span class="list-price">3.10</span>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section class="section" id="atelier">
+    <div class="container split">
+        <div class="split-text">
+            <span class="tag">L'atelier</span>
+            <h2>On voit ce qu'on mange</h2>
+            <p>
+                La vitrine est à l'avant, le fournil est derrière. Si vous avez dix minutes avant 9 h,
+                passez. On vous explique la fournée, ça ne gêne personne et ça dérange les paresseux.
+            </p>
+            <ul class="ticks">
+                <li>Farine d'un meunier à une chaufferie, pas de farine standard</li>
+                <li>Levain nourri chaque matin</li>
+                <li>Tourage et façonnage à la main</li>
+                <li>Aucun ingrédient dont je ne peux pas prononcer le nom</li>
+            </ul>
+        </div>
+        <div class="split-figure">
+            <div class="figure-frame" aria-hidden="true">🥖</div>
+            <p class="figure-note">Le fournil, vers 4 h du matin. Le seul moment où il fait calme.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section section-invert" id="horaires">
+    <div class="container">
+        <div class="section-head">
+            <span class="tag tag-light">Horaires</span>
+            <h2>Quand la porte est ouverte</h2>
+            <p>Fermé le lundi. Le mardi, on répare le pétrin.</p>
+        </div>
+        <ul class="hours">
+            <li class="hours-row"><span>Lundi</span><span class="closed">fermé</span></li>
+            <li class="hours-row"><span>Mardi au vendredi</span><span>7 h 00 – 18 h 30</span></li>
+            <li class="hours-row"><span>Samedi</span><span>6 h 30 – 17 h 00</span></li>
+            <li class="hours-row"><span>Dimanche</span><span>7 h 00 – 13 h 00</span></li>
+        </ul>
+    </div>
+</section>
+
+<section class="section" id="contact">
+    <div class="container contact-inner">
+        <h2>Passez nous voir</h2>
+        <p class="contact-lead">
+            Rue du Bourg 14, Servin. Le parking est en face, et c'est gratuit.
+        </p>
+        <div class="contact-actions">
+            <a href="tel:+41261234567" class="btn btn-primary">📞 026 123 45 67</a>
+            <a href="mailto:bonjour@lepetrindeservin.ch" class="btn btn-outline">✉️ bonjour@lepetrindeservin.ch</a>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container footer-inner">
+        <p class="footer-brand">🥖 Le Pétrin de Servin</p>
+        <p class="footer-copy">Rue du Bourg 14 · 1758 Servin · Fribourg</p>
+        <p class="footer-copy">Site de démonstration. Boutique fictive.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
